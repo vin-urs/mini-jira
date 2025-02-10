@@ -44,8 +44,7 @@
 .taskDetail {
   font-size: small;
   margin-bottom: 5px;
-  border: none
-
+  border: none;
 }
 
 .taskCard:active {
@@ -57,4 +56,20 @@
   font-size: medium;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.task-card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.task-card h3 {
+  margin-top: 0;
+}
+
+.task-card p {
+  margin: 0.5rem 0 0;
 }

@@ -17,6 +17,8 @@ const TaskCard = ({ task }) => {
       onDragStart={() => setActiveCard(task.id)}
       onDragEnd={() => setActiveCard(null)}
     >
+      <h3>{task.title}</h3>
+      <p>{task.description}</p>
       <p className="taskText">{task.task}</p>
       <p className="taskDetail">{task.details}</p>
       <div className="taskCardBottom">

@@ -1,11 +1,11 @@
-.taskLogo{
+.taskLogo {
   width: 24px;
   padding: 2px;
   aspect-ratio: inherit;
   margin-right: 10px;
 }
 
-.taskColumn{
+.taskColumn {
   width: 100%;
   margin: 4px;
   padding: 5px;
@@ -13,10 +13,28 @@
   background-color: rgba(156, 209, 255, 0.322);
   border-radius: 10px;
 }
-.taskColumnHeader{
+
+.taskColumnHeader {
   display: flex;
   font-size: large;
   align-items: center;
   justify-content: center;
   padding-top: 10px;
+}
+
+.task-columns {
+  display: flex;
+  gap: 1rem;
+}
+
+.task-column {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.task-column h2 {
+  margin-top: 0;
 }
